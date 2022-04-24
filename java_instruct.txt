@@ -1,0 +1,4 @@
+javac fileName.java
+java fileName
+
+*Make sure the classname and filename is same inside JAVA file*

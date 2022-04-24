@@ -1,0 +1,3 @@
+flex filename.l
+gcc lex.yy.c
+.\execFilename.exe

@@ -1,0 +1,5 @@
+gcc fileName.c
+
+gcc -o execFileName filename.c
+
+.\execFileName.exe
