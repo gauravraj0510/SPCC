@@ -1,8 +1,8 @@
 %{
  
  /*To find whether given letter is a vowel or not*/
-#undef yywrap
-#define yywrap() 1
+ #undef yywrap
+ #define yywrap() 1
  void display(int);
 %}
  
