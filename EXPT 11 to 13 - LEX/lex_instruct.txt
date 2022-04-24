@@ -1,3 +1,5 @@
+Steps for output:
+
 flex filename.l
 gcc lex.yy.c
-.\execFilename.exe
+.\execFilename.out (or) .\execFilename.exe (or) 

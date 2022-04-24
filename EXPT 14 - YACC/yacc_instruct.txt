@@ -1,0 +1,6 @@
+Steps for output:
+
+flex identifier.l
+yacc -d identifier.y
+gcc lex.yy.c y.tab.c -lfl
+./a.out
