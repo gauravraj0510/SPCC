@@ -110,3 +110,43 @@ public class follow {
         return arr.toString();
     }
 }
+
+// OUTPUT 
+// Enter the non-terminals: 
+// PSAB
+// Enter the terminals: 
+// abcd
+// Specify the grammar(Enter 9 for epsilon production)
+// Enter the number of productions for P: 
+// 1
+// Enter the productions: 
+// Sd
+// Enter the number of productions for S: 
+// 2
+// Enter the productions: 
+// aAS
+// c
+// Enter the number of productions for A: 
+// 2
+// Enter the productions: 
+// ba
+// SB
+// Enter the number of productions for B: 
+// 2
+// Enter the productions: 
+// bA
+// S
+// Enter First forP:
+// ac
+// Enter First forS:
+// ac
+// Enter First forA:
+// bac
+// Enter First forB:
+// bac
+
+// Follow Set
+// Follow of P: [$]
+// Follow of S: [d, b, a, c]
+// Follow of A: [a, c]
+// Follow of B: [a, c]

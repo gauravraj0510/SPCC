@@ -83,3 +83,31 @@ public class first {
         return arr.toString();
     }
 }
+
+// OUTPUT
+// Enter the non-terminals: PSAB
+// Enter the terminals: 
+// abcd
+// Specify the grammar(Enter 9 for epsilon production)
+// Enter the number of productions for P: 
+// 1
+// Enter the productions: Sd
+// Enter the number of productions for S: 
+// 2
+// Enter the productions: 
+// aAs
+// c
+// Enter the number of productions for A: 
+// 2
+// Enter the productions: 
+// ba
+// SB
+// Enter the number of productions for B: 
+// 2
+// Enter the productions: 
+// bA
+// S
+// First SetFirst of P: [a, c]
+// First of S: [a, c]
+// First of A: [b, a, c]F
+// irst of B: [b, a, c]
